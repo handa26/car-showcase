@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Hub <img src="https://img.shields.io/badge/Build%20with-Vite-61dbfb?style=popout&logo=vite">
 
-## Getting Started
+## Contents
 
-First, run the development server:
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation-for-development)
+- [Screenshoots](#screenshoots)
+- [Demo Car Hub](#demo-car-hub)
 
+## Description
+
+**Car Hub** is a website built to facilitate users in obtaining specifications for rental cars. Car Hub fetches details about cars from an external API with search functionality, search filters, and search input. It is created with both client-side and server-side rendering.
+
+## Features
+- Search Car
+- Filter by manufacturer
+- Filter by car model
+- Filter by fuel
+- Filter by year
+
+## Installation for Development
+
+Use the package manager [npm](https://www.npmjs.com/get-npm) to install all required dependecies.
+```bash
+npm install
+```
+and then:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshoots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<div align="center">
+    <img width="100%" src="./public/car-hub-front.png">
+    <img width="100%" src="./public/car-hub-filter.png">
+    <img width="100%" src="./public/car-hub-filter-2.png">
+    <img width="100%" src="./public/car-hub-detail.png">
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Demo Car Hub
 
-## Learn More
+Let's try it.
 
-To learn more about Next.js, take a look at the following resources:
+<a href="https://car-showcase-3wg9.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Car%20Hub-Link%20Demo-blue.svg?style=popout&logo=googlechrome"/>
+</a>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

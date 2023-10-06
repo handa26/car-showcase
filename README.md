@@ -1,4 +1,4 @@
-# Car Hub <img src="https://img.shields.io/badge/Build%20with-Vite-61dbfb?style=popout&logo=vite">
+# Car Hub <img src="https://img.shields.io/badge/Build%20with-Vite-61dbfb?style=popout&logo=nextdotjs">
 
 ## Contents
 
